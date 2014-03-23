@@ -4,6 +4,7 @@ class nutch::ant ($destination){
       cwd => $destination,
       path => "/usr/local/bin:/bin:/usr/bin",
       creates => "${destination}/runtime/",
+      timeout => 0
       }
       
     } 
